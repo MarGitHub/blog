@@ -56,8 +56,7 @@ CREATE TABLE IF NOT EXISTS `post` (
 --
 
 INSERT INTO `post` (`post_id`, `post_subject`, `post_text`, `post_created`, `user_id`) VALUES
-(1, 'First post', 'This is my first post. ', '2014-09-04 13:08:31', 1),
-(2, 'First post', 'This is my first post. ', '2014-09-04 13:10:44', 1);
+(1, 'First post', 'This is my first post. ', '2014-09-04 13:08:31', 1);
 
 -- --------------------------------------------------------
 
