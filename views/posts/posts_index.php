@@ -17,3 +17,9 @@
         </div>
     </div>
 <?endforeach?>
+<hr>
+<form method="post">
+    <input name="data[post_subject]" type="text" placeholder="Pealkiri"></input><br><br>
+    <textarea name="data[post_text]" placeholder="Sisu" cols="100" rows="10"></textarea><br><br>
+    <button class="btn btn-default">Postita</button>
+</form>
