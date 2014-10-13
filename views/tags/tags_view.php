@@ -1,5 +1,8 @@
-<ul class="list-group">
+<h1>Posts</h1>
+<div class="list-group">
     <? foreach ($posts as $post): ?>
-        <li class="list-group-item"><a href="posts/view/<?= $post['post_id'] ?>"><?=$post['post_subject']?></a></li>
+        <a href="<?= BASE_URL ?>posts/view/<?= $post['post_id'] ?>/<?= $post['post_subject'] ?>" class="list-group-item">
+            <?= $post['post_subject'] ?>
+        </a>
     <? endforeach ?>
-</ul>
+</div>
