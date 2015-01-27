@@ -11,8 +11,3 @@
 </br>
 </br>
 </hr>
-<form method="post">
-    <input name="data[post_subject]" type="text" placeholder="pealkiri"/> <br><br>
-    <textarea name="data[post_text]" placeholder="tekst" id="" cols="30" rows="10"></textarea> </br><br>
-    <button class="btn">Post</button>
-</form>
